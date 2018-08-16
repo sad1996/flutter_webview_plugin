@@ -216,7 +216,8 @@ class WebviewManager {
         }
 
         if (headers != null) {
-            webView.loadUrl(url, headers);
+            //webView.loadUrl(url, headers);
+            webView.postUrl(url, headers);
         } else {
             webView.loadUrl(url);
         }
