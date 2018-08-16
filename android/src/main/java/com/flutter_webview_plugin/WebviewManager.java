@@ -217,7 +217,7 @@ class WebviewManager {
 
         if (headers != null) {
             //webView.loadUrl(url, headers);
-            webView.postUrl(url, headers);
+            webView.postUrl(url, EncodingUtils.getBytes(headers, "BASE64"));
         } else {
             webView.loadUrl(url);
         }
