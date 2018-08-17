@@ -18,7 +18,7 @@ import android.widget.FrameLayout;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.net.URLEncoder
+import java.net.URLEncoder;
 
 import io.flutter.plugin.common.MethodCall;
 import io.flutter.plugin.common.MethodChannel;
