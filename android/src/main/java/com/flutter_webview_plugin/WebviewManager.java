@@ -219,7 +219,6 @@ class WebviewManager {
         if (headers != null) {
             //webView.loadUrl(url, headers);
             String postData = "fileContents=" + URLEncoder.encode(headers.toString(), "UTF-8");
-            WebView webview = new WebView(this);
             webView.postUrl(url, postData.getBytes());
         } else {
             webView.loadUrl(url);
